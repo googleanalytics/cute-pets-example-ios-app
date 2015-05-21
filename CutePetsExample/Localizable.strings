@@ -1,0 +1,17 @@
+"AppName" = "Cute Pets Example";
+
+"Question_Gender" = "What is your gender?";
+"Question_Age" = "What is your age group?";
+"Question_Pet" = "Which pets do you own?";
+
+"Instructions" = "You will be shown a series of image pairs comparing two pets.\
+\nTap on the pet who you think is cuter.";
+"TapPrompt" = "Tap the cuter pet";
+"Results" = "Thank you for your answers!\n\nHere are your top three pets.";
+
+"Choice_Cats" = "Cat(s)";
+"Choice_Dogs" = "Dog(s)";
+
+"AgeGroup_1" = "Under 24 years old";
+"AgeGroup_2" = "25-54 years old";
+"AgeGroup_3" = "55 years or older";
