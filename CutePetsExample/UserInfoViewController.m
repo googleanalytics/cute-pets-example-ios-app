@@ -98,7 +98,8 @@
 - (void)trackAnswers {
   id<GAITracker> tracker = [[GAI sharedInstance] defaultTracker];
 
-  // Create custom dimensions to track gender, age group, and pets owned for the current user.
+  // Set custom dimensions to track gender, age group, and pets owned for the current user.
+  // Custom dimensions must first be configured using the Google Analytics web interface.
   NSString *genderValue = self.segmentedControl.selectedSegmentIndex == 0 ? @"Female" : @"Male";
   [tracker set:[GAIFields customDimensionForIndex:1] value:genderValue];
 
