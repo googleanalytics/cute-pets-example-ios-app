@@ -62,7 +62,7 @@
   [super updateViewConstraints];
 
   UIInterfaceOrientation orientation = [UIApplication sharedApplication].statusBarOrientation;
-  if (UIDeviceOrientationIsPortrait(orientation)) {
+  if (UIInterfaceOrientationIsPortrait(orientation)) {
     if (self.landscapeConstraints) {
       [self.view removeConstraints:self.landscapeConstraints];
     }

@@ -12,7 +12,7 @@
 
 @implementation ResultsViewController
 
-- (NSUInteger)supportedInterfaceOrientations {
+- (UIInterfaceOrientationMask)supportedInterfaceOrientations {
   return UIInterfaceOrientationMaskAllButUpsideDown;
 }
 
